@@ -26,7 +26,7 @@ believe this "shows" better in the UI, especially since one of the
 goals of the demo is to highlight the usability of the Chef Automate
 interface. Feel free to change it for your own demo if you disagree.
 
-PREPARATION
+PREPARATION 
 There are 2 ways you can update the existing demo with the custom profile and recipe.
   1.a   Replace existing dca_demo cookbook with the attached version.
         This is the easiest way but if there are future updates to the cookbook  
