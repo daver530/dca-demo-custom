@@ -32,7 +32,7 @@ There are 2 ways you can update the existing demo with the custom profile and re
 
   1.a   Replace existing dca_demo cookbook with the attached version.
         This is the easiest way but if there are future updates to the cookbook  
-        the demo may not work properly. It was tested successfully with version 4.2.1.
+        the demo may not work properly. It was tested successfully with version 4.2.1. 
 
   1.b   Add the attached dca_demo cookbook artifacts to existing cookbook.
         This is the safest way but make sure all files are copied.
@@ -40,7 +40,7 @@ There are 2 ways you can update the existing demo with the custom profile and re
         - recipe audit-ini.rb
         - recipe foobar.rb
         - template foobar.erb
-        - Increment version in metadata.rb 
+        - Increment version in metadata.rb
 
   2.    From c:\Users\chef\cookbooks execute 'knife cookbook upload dca_demo'
   3.    Copy attached "ini-0.1.0.tar.gz" to c:\users\chef\profiles directory.
